@@ -32,7 +32,12 @@ body {
 
 .prova-gratis {
     text-align: center;
+    margin: 30px 0 20px;
 }
+
+/* tipography */
+
+
 
 /* header */
 
@@ -127,20 +132,25 @@ h1 {
 .row-70 {
     width: 70%;
     margin: 200px auto 0;
-    height: 70px;
     border: solid black;
     position: relative;
 }
 
-.row-plan-left, .row-plan-center, .row-plan-right {
+.col-plan-left, .col-plan-center, .col-plan-right {
     float: left;
     border: 1px solid #d0d0d3;
-    width: 30%;
-    height: 400px;
+    width: calc((100% - 10%)/3);
+    /* provvisorio */
+    min-height: 900px; 
 }
 
-.row-plan-center {
+.col-plan-center {
     margin: 0 5%;
+}
+
+
+.plan-row {
+    margin-top: 20px;
 }
 
 h2 {
@@ -150,6 +160,7 @@ h2 {
 
 .radio {
     margin-left: 10px;
+    margin-bottom: 30px;
 }
 
 .icon-up-col {
@@ -157,11 +168,60 @@ h2 {
     padding: 10px;
     border-bottom: 1px solid #d0d0d3;
 }
+i {
+    padding-right: 5px;
+}
 
 .cont-col {
     padding: 0 20px;
 }
 
-.title-col-plan {
-
+.check-li li::before {
+    content: "\f00c";
+    font-family: "font Awesome 5 free";
+    display: inline-block;
+    font-weight: 900;
+    padding-right: 5px;
+    color: #0061ff;
 }
+ 
+.check-li li {
+    margin-bottom: 20px;
+}
+
+.line-plan {
+    width: 20%;
+    margin: 10px 0;
+    border-bottom: 2px solid #d0d0d3 ;
+}
+
+.title-col-plan {
+    font-size: 30px;
+    margin: 30px 0 20px;
+}
+
+.price-plan {
+    font-weight: 800;
+    margin: 20px 0;
+}
+
+.durata {
+    color: #637381;
+    margin-bottom: 20px;
+}
+
+.cont-col i {
+    margin-bottom: 15px;
+    /* font-size: 15px; */
+}
+
+.line-plan {
+    margin: 20px 0
+}
+
+.recap-plan {
+    margin-bottom: 15px;
+    font-size: 17px;
+    font-weight: 700;
+}
+
