@@ -33,11 +33,13 @@ body {
 .prova-gratis {
     text-align: center;
     margin: 30px 0 20px;
+    padding: 10px 16%;
 }
 
 .btn-enterprise {
     text-align: center;
-    margin: 30px 0;
+    padding: 10px 60px;
+    margin: 30px auto;
 
 }
 
@@ -233,7 +235,7 @@ i {
 .left-text-enterprise {
     width: 70%;
     float: left;
-    /* min-height: 200px; */
+    min-height: 200px;
     padding-left: 30px;
 
 }
