@@ -16,6 +16,12 @@ body {
     display: table;
 }
 
+.img-hp {
+    max-width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
 /* BOTTONI */
 .btn{
     text-decoration: none;
@@ -99,7 +105,7 @@ nav li{
 }
 
 
-/* first-section */
+/* section Hero*/
 
 .hero-section {
     background-color: #b4d0e7;
@@ -130,10 +136,6 @@ h1 {
 .hero-col-right {
     width: 70%;
     float: right;
-}
-
-.hero-col-right img {
-    max-width: 100%;
 }
 
 .text-hero, .btn-prova-gratuita {
@@ -169,7 +171,7 @@ h1 {
 
 
 .plan-row {
-    margin-top: 20px;
+    margin-top: 20px; 
 }
 
 h2 {
@@ -215,7 +217,7 @@ i {
 }
 
 .title-col-plan {
-    font-size: 28px;
+    font-size: 25px;
     margin: 30px 0 20px;
 }
 
@@ -278,18 +280,12 @@ i {
     min-height: 150px;
 }
 
-.img-partner {
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-}
-
 .row-partner {
     padding: 30px 0 0 30px;
 }
 
-.title-partner {
-    font-size: 27px;
+.title-h3 {
+    font-size: 25px;
     margin-bottom: 20px;
 }
 
@@ -297,3 +293,19 @@ i {
     font-size: 14px;
     margin-bottom: 20px;
 }
+
+/* Sezione Operazioni con Dropbox Business */
+
+.col-left-operation, .col-center-operation, .col-right-operation {
+    float: left;
+    width: calc((100% - 10%)/3);
+    /* provvisorio */
+    /* border: 1px solid #000; */
+
+    min-height: 450px; 
+}
+
+.col-center-operation {
+    margin: 0 5%;
+}
+
