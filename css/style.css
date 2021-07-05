@@ -335,8 +335,6 @@ i {
     width: 30%;
     height: 100%;
     float: left;
-
-    
 }
 
 .square {
@@ -400,4 +398,12 @@ i {
 
 .clear-channel {
     background-color: #ffd830;
+}
+
+.text-brands {
+    margin: 50px 50px;
+}
+
+.brand-descript {
+    width: 30%;
 }
