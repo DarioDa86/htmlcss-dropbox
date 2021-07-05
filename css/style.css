@@ -58,6 +58,13 @@ body {
     line-height: normal;
 }
 
+.prova-gratuita {
+    float: right;
+    padding: 10px 16%;
+    background-color: #fff;
+    color: #000;
+}
+
 /* tipography */
 
 
@@ -73,7 +80,7 @@ body {
 }
 
 .header-col-left, .header-col-right {
-    width: 35%;
+    width: 40%;
     padding: 0px 15px;
     line-height: 60px;
 }
@@ -108,10 +115,11 @@ nav li{
 
 /* section Hero*/
 
-.hero-section {
+.bg-hero {
     background-color: #b4d0e7;
     width: 100%;
-    margin-top: 60px;
+    padding-top: 40px;
+    /* margin-top: 60px; */
 }
 
 .content-hero {
@@ -274,7 +282,6 @@ i {
 .col-50 {
     width: 50%;
     float: left;
-    min-height: 150px;
 }
 
 .row-partner {
@@ -296,9 +303,6 @@ i {
 .col-left-operation, .col-center-operation, .col-right-operation {
     float: left;
     width: calc((100% - 10%)/3);
-    /* provvisorio */
-    /* border: 1px solid #000; */
-
     min-height: 450px; 
 }
 
@@ -308,27 +312,39 @@ i {
 
 /* Sezione team partner dropbox */
 
+.link-clienti {
+    margin-bottom: 40px;
+}
+
+.bg-team-partner {
+    background-color: #b4d0e7;
+    width: 100%;
+}
+
 .row-100 {
     width: 100%;
     background-color: #f5f5f5;
-    /* min-height: 400px; */
     position: relative;
-    margin: 50px 0;
+}
+
+.row-70-nomargin {
+    width: 70%;
+    margin: 0 auto;
+    padding: 130px 0;
+    position: relative;
 }
 
 .col-left {
     width: 30%;
     height: 100%;
     float: left;
-
 }
 
 .col-center {
     width: 40%;
     height: 100%;
     float: left;
-
-
+    /* overflow: auto; */
 }
 
 .col-right {
@@ -355,11 +371,6 @@ i {
     right: 5%;
     bottom: 5%;
     left: 5%;
-}
-
-.box-brand {
-    
-    position: relative;
 }
 
 .brand-img {
@@ -406,4 +417,18 @@ i {
 
 .brand-descript {
     width: 30%;
+}
+
+.cit-thomsen {
+    margin-top: 50px;
+}
+
+.title-brands {
+    color: #61082b;
+    vertical-align: middle;
+    margin-bottom: 0;
+}
+
+.faq-title {
+    margin-bottom: 50px;
 }
