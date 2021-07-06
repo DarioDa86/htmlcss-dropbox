@@ -429,12 +429,13 @@ i {
     margin-bottom: 0;
 }
 
+/* Faq - Domande frequenti */
+
 .faq-title {
     margin-bottom: 50px;
 }
 
 .row-faq li {
-    display: block;
     line-height: 60px;
     border-top: 1px solid #dcdcde;
     font-size: 15px;
@@ -447,10 +448,13 @@ i {
 }
 
  .fa-angle-down{
-    display: inline-block;
     font-size: 20px;
-}
+    float: right;
+    position: relative;
+    top: 20px;
+    right: 20px;
 
+}
 
 /* FOOTER */
 
